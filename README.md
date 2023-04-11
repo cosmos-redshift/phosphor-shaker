@@ -22,6 +22,9 @@ import ChartLine from 'phosphor-react-native/src/icons/ChartLine'
 import CurrencyDollar from 'phosphor-react-native/src/icons/CurrencyDollar'
 ```
 
+# Testing
+To test the extension run: `npm test`
+
 # Contribution
 
 Feel free to fork, branch out and create changes.

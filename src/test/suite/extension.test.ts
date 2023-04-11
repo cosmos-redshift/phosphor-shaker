@@ -13,13 +13,13 @@ suite("Extension Test Suite", () => {
       __dirname,
       "..",
       "examples",
-      "bad-import.tsx"
+      "bad-import.js"
     );
     const goodImportPath = path.join(
       __dirname,
       "..",
       "examples",
-      "good-import.tsx"
+      "good-import.js"
     );
     const badImportContent = fs.readFileSync(badImportPath, "utf8");
     const goodImportContent = fs.readFileSync(goodImportPath, "utf8");
@@ -34,7 +34,7 @@ suite("Extension Test Suite", () => {
     const editor = await vscode.window.showTextDocument(document);
 
     // Execute the formatting command
-    await vscode.commands.executeCommand("tsx-import-formatter.formatImports");
+    await vscode.commands.executeCommand("phosphor-shaker.formatImports");
 
     // Get the formatted content from the editor
     const formattedContent = editor.document.getText();
