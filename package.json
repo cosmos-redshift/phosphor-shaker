@@ -1,6 +1,6 @@
 {
-  "name": "tsx-import-formatter",
-  "displayName": "TSX Import Formatter",
+  "name": "phosphor-shaker",
+  "displayName": "Phosphor Icons Shaker (RN)",
   "description": "Format phoshporicons-react-native imports",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "tsx-import-formatter.formatImports",
-        "title": "Format TSX imports"
+        "command": "phosphor-shaker.formatImports",
+        "title": "Phosphor Shaker"
       }
     ]
   },
